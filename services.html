@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Services</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Black Sheep Audio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- TABLE -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Service</th>
+          <th scope="col">Cost</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mix</td>
+          <td>$250</td>
+          <td>
+            Full Mix on individual tracks - Tuning/Pitch Correction, EQ, Volume
+            Balance, Panning, Compression, and Reverb
+          </td>
+        </tr>
+        <tr>
+          <td>Master</td>
+          <td>$200</td>
+          <td>
+            Full Master on stereo master track - EQ, Compression, Reverb, &
+            Volume
+          </td>
+        </tr>
+        <tr>
+          <td>Full Mix & Master</td>
+          <td>$500</td>
+          <td>
+            Radio Ready Full Mix and Master including tuning/pitch correction,
+            EQ, Balance, Panning, Compression, and Reverb on individual tracks
+            as well as the stereo master
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
